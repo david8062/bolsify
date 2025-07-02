@@ -1,4 +1,8 @@
+import 'package:bolsify/src/config/routes.dart';
+import 'package:bolsify/src/features/home/view/home_view.dart';
 import 'package:flutter/material.dart';
+import 'package:bolsify/src/config/theme/app_theme.dart';
+import 'package:bolsify/l10n/generated/app_localizations.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,14 +13,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Mi App Flutter',
+    return MaterialApp.router(
+      routerConfig: router,
+      title: 'Bolsify',
+      theme: AppTheme.light,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      //home: const HomeView(),
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
     );
+
   }
 }

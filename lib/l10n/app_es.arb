@@ -1,5 +1,7 @@
 {
   "@@locale": "es",
   "title": "Bienvenido",
-  "changeLanguage": "Cambiar idioma"
+  "changeLanguage": "Cambiar idioma",
+  "login": "Login",
+  "register": "Registrarse"
 }

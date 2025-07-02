@@ -12,8 +12,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get title => 'Welcome';
 
   @override
-  String get changeLanguage => 'Change language';
+  String get changeLanguage => 'Change Lenguaje';
 
   @override
-  String get otherButton => 'Other button';
+  String get login => 'Login';
+
+  @override
+  String get register => 'Register';
 }

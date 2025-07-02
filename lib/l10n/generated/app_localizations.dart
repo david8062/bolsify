@@ -107,14 +107,20 @@ abstract class AppLocalizations {
   /// No description provided for @changeLanguage.
   ///
   /// In en, this message translates to:
-  /// **'Change language'**
+  /// **'Change Lenguaje'**
   String get changeLanguage;
 
-  /// No description provided for @otherButton.
+  /// No description provided for @login.
   ///
   /// In en, this message translates to:
-  /// **'Other button'**
-  String get otherButton;
+  /// **'Login'**
+  String get login;
+
+  /// No description provided for @register.
+  ///
+  /// In en, this message translates to:
+  /// **'Register'**
+  String get register;
 }
 
 class _AppLocalizationsDelegate

@@ -1,6 +1,8 @@
 {
   "@@locale": "en",
   "title": "Welcome",
-  "changeLanguage": "Change language",
-  "otherButton": "Other button"
+  "changeLanguage": "Change Lenguaje",
+  "login": "Login",
+  "register": "Register"
 }
+
