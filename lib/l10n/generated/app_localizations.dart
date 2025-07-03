@@ -121,6 +121,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Register'**
   String get register;
+
+  /// No description provided for @userOrEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'User or Email'**
+  String get userOrEmail;
+
+  /// No description provided for @password.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get password;
+
+  /// No description provided for @repeatPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Repeat Password'**
+  String get repeatPassword;
+
+  /// No description provided for @alreadyAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have account?'**
+  String get alreadyAccount;
+
+  /// No description provided for @loginHere.
+  ///
+  /// In en, this message translates to:
+  /// **'Login here'**
+  String get loginHere;
+
+  /// No description provided for @dontHaveAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have account?'**
+  String get dontHaveAccount;
+
+  /// No description provided for @createHere.
+  ///
+  /// In en, this message translates to:
+  /// **'Create here'**
+  String get createHere;
 }
 
 class _AppLocalizationsDelegate

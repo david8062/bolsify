@@ -19,4 +19,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get register => 'Register';
+
+  @override
+  String get userOrEmail => 'User or Email';
+
+  @override
+  String get password => 'Password';
+
+  @override
+  String get repeatPassword => 'Repeat Password';
+
+  @override
+  String get alreadyAccount => 'Already have account?';
+
+  @override
+  String get loginHere => 'Login here';
+
+  @override
+  String get dontHaveAccount => 'Don\'t have account?';
+
+  @override
+  String get createHere => 'Create here';
 }

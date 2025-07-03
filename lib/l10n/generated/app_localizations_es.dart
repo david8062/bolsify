@@ -19,4 +19,25 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get register => 'Registrarse';
+
+  @override
+  String get userOrEmail => 'Usuario o correo';
+
+  @override
+  String get password => 'Contraseña';
+
+  @override
+  String get repeatPassword => 'Repetir contraseña';
+
+  @override
+  String get alreadyAccount => '¿Ya tienes cuenta?';
+
+  @override
+  String get loginHere => 'Inicia Sesión Aqui';
+
+  @override
+  String get dontHaveAccount => '¿Aún no tienes una cuenta?';
+
+  @override
+  String get createHere => 'Crea una aqui';
 }

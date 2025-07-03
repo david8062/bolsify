@@ -8,6 +8,7 @@ environment:
   sdk: ^3.8.1
 
 dependencies:
+  flutter_riverpod: ^2.6.1
   flutter:
     sdk: flutter
   flutter_localizations:

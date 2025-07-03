@@ -3,5 +3,12 @@
   "title": "Bienvenido",
   "changeLanguage": "Cambiar idioma",
   "login": "Login",
-  "register": "Registrarse"
+  "register": "Registrarse",
+  "userOrEmail": "Usuario o correo",
+  "password": "Contraseña",
+  "repeatPassword": "Repetir contraseña",
+  "alreadyAccount": "¿Ya tienes cuenta?",
+  "loginHere": "Inicia Sesión Aqui",
+  "dontHaveAccount": "¿Aún no tienes una cuenta?",
+  "createHere" : "Crea una aqui"
 }

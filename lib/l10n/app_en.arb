@@ -3,6 +3,13 @@
   "title": "Welcome",
   "changeLanguage": "Change Lenguaje",
   "login": "Login",
-  "register": "Register"
+  "register": "Register",
+  "userOrEmail": "User or Email",
+  "password": "Password",
+  "repeatPassword": "Repeat Password",
+  "alreadyAccount": "Already have account?",
+  "loginHere": "Login here",
+  "dontHaveAccount": "Don't have account?",
+  "createHere" : "Create here"
 }
 

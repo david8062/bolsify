@@ -3,9 +3,10 @@ import 'package:bolsify/src/features/home/view/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:bolsify/src/config/theme/app_theme.dart';
 import 'package:bolsify/l10n/generated/app_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
-  runApp(const MyApp());
+  const ProviderScope(child: MyApp());
 }
 
 class MyApp extends StatelessWidget {

@@ -25,12 +25,11 @@ class CustomButton extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         backgroundColor: backgroundColor ?? AppColors.secondary,
         padding: padding ?? const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-        minimumSize: const Size(90, 48), // <-- tamaño fijo (ancho, alto)
+        minimumSize: const Size(90, 48),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AppConstants.buttonRadius),
         ),
-        elevation: 3,
-        shadowColor: Colors.black.withValues(alpha: 0.9),
+        elevation: 0,
       ),
       onPressed: onPressed,
       child: Text(
@@ -38,6 +37,7 @@ class CustomButton extends StatelessWidget {
         style: textStyle ?? AppTextStyles.button,
       ),
     );
+
 
   }
 }
