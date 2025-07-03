@@ -5,8 +5,8 @@ import 'app_colors.dart';
 class AppTextStyles {
   static const TextStyle title = TextStyle(
     fontSize: AppConstants.textTittle,
-    fontWeight: FontWeight.bold,
-    color: AppColors.textPrimary,
+    fontWeight: FontWeight.w900,
+    color: AppColors.textStrong,
   );
 
   static const TextStyle subtitle = TextStyle(

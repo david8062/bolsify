@@ -8,6 +8,7 @@ class AppColors {
   static const success = Color(0xFF10B981);
   static const error = Color(0xFFB00020);
   static const placeHolder = Color(0xFFBCC3CE);
+  static const textStrong = Color(0xFF0C0101);
   static const textPrimary = Color(0xFF374151);
   static const textSecondary = Color(0xFF49454F);
   static const textThird = Color(0xFFBAC1D7);
