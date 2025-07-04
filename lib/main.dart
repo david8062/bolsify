@@ -1,5 +1,4 @@
 import 'package:bolsify/src/config/routes.dart';
-import 'package:bolsify/src/features/home/view/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:bolsify/src/config/theme/app_theme.dart';
 import 'package:bolsify/l10n/generated/app_localizations.dart';
