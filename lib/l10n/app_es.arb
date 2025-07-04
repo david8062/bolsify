@@ -1,6 +1,7 @@
 {
   "@@locale": "es",
   "title": "Bienvenido",
+  "appName": "bolsify",
   "changeLanguage": "Cambiar idioma",
   "login": "Login",
   "register": "Registrarse",

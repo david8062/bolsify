@@ -1,5 +1,6 @@
 {
   "@@locale": "en",
+  "appName": "bolsify",
   "title": "Welcome",
   "changeLanguage": "Change Lenguaje",
   "login": "Login",

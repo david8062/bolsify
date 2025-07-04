@@ -98,6 +98,12 @@ abstract class AppLocalizations {
     Locale('es'),
   ];
 
+  /// No description provided for @appName.
+  ///
+  /// In en, this message translates to:
+  /// **'bolsify'**
+  String get appName;
+
   /// No description provided for @title.
   ///
   /// In en, this message translates to:

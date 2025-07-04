@@ -1,4 +1,7 @@
+import 'package:bolsify/src/config/constants.dart';
+import 'package:bolsify/src/config/theme/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:bolsify/l10n/generated/app_localizations.dart';
 
 class AuthSwitch extends StatefulWidget {
   final void Function(bool isLogin) onToggle;
@@ -32,12 +35,13 @@ class _AuthSwitchState extends State<AuthSwitch> {
 
   @override
   Widget build(BuildContext context) {
+    final localizations = AppLocalizations.of(context)!;
     return Container(
-      width: 280,
+      width: 325,
       height: 50,
       decoration: BoxDecoration(
-        color: const Color(0xFFdbeafe), // fondo base
-        borderRadius: BorderRadius.circular(30),
+        color: AppColors.baseBackground, // fondo base
+        borderRadius: BorderRadius.circular(AppConstants.buttonRadius),
       ),
       child: Stack(
         children: [
@@ -45,13 +49,13 @@ class _AuthSwitchState extends State<AuthSwitch> {
             duration: const Duration(milliseconds: 200),
             alignment: isLogin ? Alignment.centerRight : Alignment.centerLeft,
             child: Container(
-              width: 140,
+              width: 162.5,
               height: 50,
               decoration: BoxDecoration(
                 color: isLogin
-                    ? const Color(0xFF1e3a8a)
-                    : const Color(0xFF60a5fa),
-                borderRadius: BorderRadius.circular(30),
+                    ? AppColors.primary
+                    : AppColors.secondary,
+                borderRadius: BorderRadius.circular(AppConstants.buttonRadius),
               ),
             ),
           ),
@@ -62,10 +66,11 @@ class _AuthSwitchState extends State<AuthSwitch> {
                   onTap: () => toggle(false),
                   child: Center(
                     child: Text(
-                      'Registrarse',
+                      localizations.register,
                       style: TextStyle(
-                        color: isLogin ? Colors.black : Colors.white,
-                        fontWeight: FontWeight.w600,
+                        color: isLogin ? AppColors.textStrong: AppColors.textPrimary,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 16.0,
                       ),
                     ),
                   ),
@@ -76,10 +81,11 @@ class _AuthSwitchState extends State<AuthSwitch> {
                   onTap: () => toggle(true),
                   child: Center(
                     child: Text(
-                      'Iniciar Sesión',
+                      localizations.login,
                       style: TextStyle(
                         color: isLogin ? Colors.white : Colors.black,
-                        fontWeight: FontWeight.w600,
+                        fontWeight: FontWeight.w700,
+
                       ),
                     ),
                   ),
